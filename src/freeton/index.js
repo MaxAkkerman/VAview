@@ -2,7 +2,7 @@
 // import freeton from "freeton";
 // import { TonClient } from "@tonclient/core";
 // import { libWeb } from "@tonclient/lib-web";
-// import { Account } from "@tonclient/appkit";
+// import { Main } from "@tonclient/appkit";
 //
 // TonClient.useBinaryLibrary(libWeb);
 // TonClient.defaultConfig = { network: { endpoints: ["http://net.ton.dev"] } };
@@ -1372,7 +1372,7 @@
 // //     try {
 // //       const client = new TonClient({network: { server_address: 'net.ton.dev' }});
 // //       const rootAddress = Radiance.networks['2'].dexroot;
-// //       const rootAcc = new Account( DEXrootContract, {address:rootAddress,client,});
+// //       const rootAcc = new Main( DEXrootContract, {address:rootAddress,client,});
 // //       const response = await rootAcc.runLocal("pairKeys", {});
 // //       document.getElementById('result').innerHTML += '</br>' + JSON.stringify(response.decoded.output.pairKeys)
 // //       console.log(response.decoded.output.pairKeys);

@@ -1,0 +1,37 @@
+.main{
+  justify-content: center;
+  display: flex;
+  font-size: 23px;
+  padding-top: 15px;
+}
+.vier{
+  margin-top:20px;
+  width:100%
+  //background:transparent;
+
+}
+.netWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (min-width: 992px) {
+  .mainWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .DAWrapper{
+    width:60%;
+    max-width: 688px;
+  }
+  .DAplacesWrapper{
+    width:30%;
+  }
+  .vier{
+    //width:100%;
+  }
+}
+

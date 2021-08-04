@@ -6,7 +6,7 @@
 // import ReactDOM from 'react-dom';
 // import { useState, useEffect } from 'react';
 //
-// const { Account } = require("@tonclient/appkit");
+// const { Main } = require("@tonclient/appkit");
 //
 // function checkExtensionAvailability() {
 //     if (window.freeton === undefined) {

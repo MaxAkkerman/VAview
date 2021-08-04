@@ -1,0 +1,75 @@
+.VCContainer{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 992px) {
+
+  .VCContainer{
+    width:100%;
+  }
+}
+
+.VCName{
+  background: darkgray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50px;
+  font-size:20px;
+}
+.VCLocation{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+}
+.VCact4Container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+.VCact4item{
+  margin-top: 10px;
+}
+.VCact4address{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.act4Container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top:20px;
+}
+.collatorContainer {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.photolink {
+  margin-top:10px;
+}
+.voteMartix {
+  margin-top:10px;
+}
+.totalamountValidators {
+  margin-top:10px;
+}
+.valFor {
+  //margin-top:10px;
+}
+.valAgainst {
+  //margin-top:10px;
+}
+.clicable{
+  :hover{
+    color:#3f51b5;
+  }
+}
